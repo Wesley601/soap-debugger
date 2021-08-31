@@ -1,0 +1,18 @@
+{
+    "name": "sants/soap-debugger",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Sants\\SoapDebugger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wesley601",
+            "email": "wesleypassos601@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.3"
+    }
+}
