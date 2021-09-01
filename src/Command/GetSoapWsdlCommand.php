@@ -35,6 +35,7 @@ class GetSoapWsdlCommand extends Command
             $output->writeln([
                 $err
             ]);
+            return Command::FAILURE;
         }
 
         if ($input->getOption('functions')) {
